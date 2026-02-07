@@ -203,7 +203,8 @@ terraform init
 terraform apply
 ```
 
-![alt text](images/terraform_plan.png)
+![alt text]<img width="409" height="262" alt="terraform_plan" src="https://github.com/user-attachments/assets/ae6a625b-7b6a-4ec2-a7da-a4eb90430659" />
+
 
 ### Notes
 - The terraform-aws-modules/vpc module is used to simplify VPC creation.
