@@ -136,7 +136,8 @@ Migrate the state file to the S3 backend:
 terraform init -migrate-state
 ```
 
-![alt text](images/terraform_state_backend.jpg)
+![alt text]<img width="1487" height="540" alt="image (1)" src="https://github.com/user-attachments/assets/cc9c95c8-b713-4983-a541-ae22402b2706" />
+
 
 #### File Structure
 ```
@@ -162,7 +163,8 @@ This module configures an AWS Virtual Private Cloud (VPC) for the ECS cluster, i
 
 ---
 
-![alt text](images/image.png)
+![alt text]<img width="1487" height="540" alt="image (1)" src="https://github.com/user-attachments/assets/488bf764-1bfa-4149-937f-6d396ccba6d6" />
+
 
 ## Features
 
