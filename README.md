@@ -996,34 +996,10 @@ Stages: Automate validation, build, push, and deployment through defined CI/CD s
 - Setup GitLab CICD Pipelines
 
 
-![alt text](images/gitlab_cicd_01.png)
-
 ### GitLab IAM user
 
 Terraform will create an IAM user and store IAM acccess and secret credentials for 'gitlab-cicd' user. We will need to retrieve IAM access and sercret keys from SSM Parameters Store.  This user doesn't need programmatic but terminal access only. 
 
-![alt text](images/gitlab_cicd.png)
-![alt text](images/parameters_store.png)
-
-Log in to your Gitlab account and create a new project 
-
-![alt text](images/new_project.png)
-
-Log in to your linux server and git initialize new repository 
-
-![alt text](images/git_pull.png)
-
-You will need to have two branches  'dev' and 'main':
-![alt text](images/branches.png)
-
-Protect both of your  branch from deletion as well as push without merge
-
-![alt text](images/protect_branches.png)
-
-Set 3 variables for your pipeline 
-![alt text](images/variables.png)
-
-![alt text](images/three_variables.png)
 
 ### Pipelines setup
 ##
@@ -1031,7 +1007,7 @@ The .gitlab-ci.yml file automates the entire pipeline for deploying a web app on
 
 https://gitlab.com/sahib.gasimov2/gitlabcicd-ecs - You can copy all CICD files from this repo. 
 
-![alt text](images/gitlabcicdyaml.png)
+
 
 ## .gitlab-ci.yml
 
@@ -1049,7 +1025,6 @@ workflow:  # Trigger pipeline only for specific branches
     - if: '$CI_COMMIT_BRANCH == "main"'
     - if: '$CI_COMMIT_BRANCH == "dev"'
 
-image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
 
 variables:
   AWS_ACCOUNT_NUMBER : "452303021915"
@@ -1128,7 +1103,6 @@ finalize_pipeline:
 
 This is how pipelines will look like 
 
-![alt text](images/cicd_pipeline_stages.jpg)
 
 ## Python application 
 
