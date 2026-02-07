@@ -41,7 +41,8 @@ This project automates the deployment of a containerized Python application on *
 ---
 
 ## Project Architecture
-![Project Architecture](images/architecture_diagram.png)
+![Project Architecture] <img width="1529" height="1287" alt="architecture_diagram" src="https://github.com/user-attachments/assets/80d90780-fc00-4d8a-808a-150736d07d74" />
+
 
 ---
 
