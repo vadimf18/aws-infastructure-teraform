@@ -41,7 +41,7 @@ This project automates the deployment of a containerized Python application on *
 ---
 
 ## Project Architecture
-![Project Architecture] <img width="1529" height="1287" alt="architecture_diagram" src="https://github.com/user-attachments/assets/80d90780-fc00-4d8a-808a-150736d07d74" />
+<img width="1529" height="1287" alt="architecture_diagram" src="https://github.com/user-attachments/assets/80d90780-fc00-4d8a-808a-150736d07d74" />
 
 
 ---
@@ -164,7 +164,7 @@ This module configures an AWS Virtual Private Cloud (VPC) for the ECS cluster, i
 
 ---
 
-![alt text]![terraform_state_backend](https://github.com/user-attachments/assets/281a3ef4-6602-4f2b-a0d9-73adc32e4e08)
+(https://github.com/user-attachments/assets/281a3ef4-6602-4f2b-a0d9-73adc32e4e08)
 
 
 
@@ -205,7 +205,7 @@ terraform init
 terraform apply
 ```
 
-![alt text]<img width="409" height="262" alt="terraform_plan" src="https://github.com/user-attachments/assets/ae6a625b-7b6a-4ec2-a7da-a4eb90430659" />
+<img width="409" height="262" alt="terraform_plan" src="https://github.com/user-attachments/assets/ae6a625b-7b6a-4ec2-a7da-a4eb90430659" />
 
 
 ### Notes
